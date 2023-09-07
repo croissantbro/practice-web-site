@@ -1,0 +1,798 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+
+
+.main {
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.empty {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60px;
+}
+
+.header {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    height: 60px;
+    align-items: center;
+    background-color: #373A3C;
+    padding: 0 165px 0 165PX;
+    width: 100%;
+    max-width: 1400px;
+    position: fixed;
+}
+
+.pre-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    gap: 25PX;
+    align-items: center;
+}
+
+.search {
+    width: 25%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin: 0 35px 0 35px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-pic {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    display: flex;
+    background: url("images/user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.xbox {
+    display: flex;
+    height: 16px;
+    width: 96px;
+}
+
+.new-games {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background: url("images/Star-Wars-Battlefront-II-combat.png");
+    flex-direction: row ;
+    
+    
+
+}
+
+
+.new-games-options{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    height: 38px;
+    margin: 0 0 0 60%;
+    align-items: center;
+}
+.watch_trailer{
+    display: flex;
+    width: 136px;
+    height: 100%;
+    background-color:  #8DD83D;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.explore_games{
+    display: flex;
+    width: 136px;
+    height: 100%;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.games-text{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.game-name {
+    display: flex;
+    color: white;
+    font-size: 32px;
+    width: 158px;
+    height: 43px;
+    margin: 204px 0 0 60%;
+    
+    
+}
+.game-name1 {
+    display: flex;
+    color: white;
+    font-size: 28px;
+    width: 152px;
+    height: 29px;
+    margin: 0 0 0 60%;
+    
+}
+.arrows{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.arrow1{
+    width: 20px;
+    height: 40px;
+    display: flex;
+    
+    background: url(images/icon-next.png);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+.arrow2{
+    width: 20px;
+    height: 40px;
+    display: flex;
+    margin: 0 50px 0 0px;
+    background: url(images/icon-next.png);
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+}
+
+.xbox-adverts {
+    display: flex;
+    width: 100%;
+    height: 865px;
+    overflow: hidden;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.xbox-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.shape {
+    width: 21px;
+    height: 7px;
+    margin: 3px 0 0 0;
+    display: flex;
+    background: url("images/Shape.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.xbox-sign {
+    width: 65px;
+    height: 65px;
+    margin: 65px 0 0 0;
+}
+
+.fsentence {
+    font-size: 42px;
+    color: white;
+}
+
+.twsentence {
+    font-size: 42px;
+    color: white;
+}
+
+.thoptions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 610px;
+    align-items: center;
+    gap: 55px;
+}
+
+.foption {
+    display: flex;
+    width: 320px;
+    height: 370px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.mixer-pic {
+    width: 320px;
+    height: 287px;
+    background: url(images/mixer-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.soption {
+    display: flex;
+    width: 320px;
+    height: 370px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.gold-pic {
+    width: 320px;
+    height: 287px;
+    background: url(images/x-gold.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toption {
+    display: flex;
+    width: 320px;
+    height: 370px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.fortion-padding {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 21px;
+}
+
+.xboxpic {
+    width: 320px;
+    height: 287px;
+    background: url(images/xbox-one-x.png);
+}
+
+.mixer-games {
+    width: 147px;
+    height: 21px;
+    font-size: 16px;
+    margin: 16px 0 13px 0;
+    color: #435766;
+}
+
+.xboxOneX {
+    width: 107px;
+    height: 21px;
+    font-size: 16px;
+    margin: 16px 0 13px 0;
+    color: #435766;
+}
+
+.gold-games {
+    width: 177px;
+    height: 21px;
+    font-size: 16px;
+    margin: 16px 0 13px 0;
+    color: #435766;
+}
+
+.first-option-textone {
+    display: flex;
+    font-size: 20px;
+    width: 221px;
+    height: 58px;
+    margin: 0 0 10px 0;
+    color: #435766;
+}
+
+.explore-consoles {
+    display: flex;
+    border-radius: 4px;
+    width: 278px;
+    height: 60px;
+    background-color: #8DD83D;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.soption {
+    display: flex;
+    width: 320px;
+    height: 370px;
+    background-color: white;
+}
+
+.toption {
+    display: flex;
+    width: 320px;
+    height: 370px;
+    background-color: white;
+}
+
+.exclusive {
+    display: flex;
+    width: 100%;
+    height: 880px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/battle.png);
+}
+.arrow-ex{
+    width: 20px;
+    height: 40px;
+    display: flex;
+    
+    background: url(images/icon-next.png);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+
+.exclusive-name {
+    margin: 97px 0 28px 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    border-color: #373A3C;
+    border-radius: 2px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 70PX;
+    gap: 30px;
+    width: 100%;
+    height: 420px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
+    background-color: white;
+}
+
+.card1Pic {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: url(images/card1.png);
+}
+
+.card1-text1 {
+    width: 147px;
+    height: 21px;
+    font-size: 16px;
+    margin: 0 0 0 20PX;
+}
+
+.card1-text2 {
+    width: 264px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 0 0 20PX;
+}
+
+.card1-button {
+    display: flex;
+    align-items: center;
+    background-color: #8DD83D;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    width: 238px;
+    height: 60px;
+    margin: 0 0 0 20PX;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
+    background-color: white;
+}
+
+.card2-pic {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: url(images/destiny.png);
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
+    background-color: white;
+}
+
+.card3-pic {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: url(images/steep.png);
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    gap: 20px;
+    background-color: white;
+}
+
+.card4-pic {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: url(images/forza.png);
+}
+
+.store-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    width: 207px;
+    height: 53px;
+    overflow: hidden;
+    margin: 74px 0 0 0;
+}
+
+.xbox-lab {
+    width: 100%;
+    height: 875px;
+    overflow: hidden;
+}
+
+.prefooter {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    background: url("images/gamepads.png");
+    padding: 14% 0 0 14%;
+    
+    
+}
+
+.xbox-lab-one {
+    width: 367px;
+    height: 57px;
+    color: white;
+    font-size: 40px;
+}
+
+.xbox-lab-two {
+    width: 533px;
+    height: 58px;
+    color: white;
+    font-size: 22px;
+}
+
+.accessories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 60px;
+    width: 500px;
+    margin: 31px 0 0 0;
+}
+
+.yours {
+    width: 207px;
+    height: 60px;
+    color: white;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.explore {
+    width: 278px;
+    height: 60px;
+    color: white;
+    background: #8DD83D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.footer {
+    width: 100%;
+    height: 395px;
+    background-color: #373A3C;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+}
+
+.foot-xbox {
+    margin: 58px 0 0 12%;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 130px;
+    gap: 30px;
+}
+
+.x-main {
+    font-size: 18px;
+    display: flex;
+    color: #7DD42F
+}
+
+.x-sup {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.x-cont {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.x-priv {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.x-term {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.foot-devs {
+    margin: 58px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 130px;
+    gap: 30px;
+}
+
+.dev-main {
+    font-size: 18px;
+    display: flex;
+    color: #7DD42F
+}
+
+.dev-sup {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.dev-cont {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.dev-priv {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.dev-term {
+    display: flex;
+    font-size: 14px;
+    color: white;
+}
+
+.foot-follow {
+    margin: 58px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 130px;
+}
+
+.fol-main {
+    font-size: 18px;
+    display: flex;
+    color: #7DD42F
+}
+
+.fol-sup {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 130px;
+    gap: 20px;
+}
+
+.fol-cont {
+    display: flex;
+    height: 20px;
+    width: 22px;
+    background: url(images/Faacebook.png);
+    background-repeat: no-repeat;
+}
+
+.fol-priv {
+    display: flex;
+    height: 20px;
+    width: 22px;
+    background: url(images/Twitter.png);
+    background-repeat: no-repeat;
+}
+
+.fol-term {
+    display: flex;
+    height: 20px;
+    width: 22px;
+    background: url(images/Instagram.png);
+    background-repeat: no-repeat;
+}
+
+.line {
+    display: flex;
+    margin: -76px 0 0 100px;
+    mix-blend-mode: normal;
+    width: 87%;
+    height: 1px;
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leng {
+    margin: 20px 0 0 0;
+    display: flex;
+    font-size: 16px;
+    color: white;
+}
+
+.auth {
+    margin: 20px 0 0 0;
+    display: flex;
+    font-size: 16px;
+    color: white;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+}
+
+.consoles {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*
+.community{
+    display: flex;
+    font-size: 14px;
+    height: 16px;
+    width: 96px;
+} */
+
+@media (max-width:900px) {
+    .main {
+        max-width: 900px;
+    }
+    .header {
+        padding: 0 50px 0 50px;
+    }
+    
+   
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding: 0 0 0 0;
+    }
+    .menu {
+        gap: 0px;
+    }
+    .footer{
+        gap:5%;
+    }
+}
